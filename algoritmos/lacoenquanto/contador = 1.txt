@@ -1,0 +1,27 @@
+contador = 1
+soma_idades = 0
+maior_idade = -1
+menor_idade = 999
+
+enquanto (contador <= 10)
+{
+    limpa()
+    escreva("Digite a idade da pessoa ", contador, ": ")
+    leia(idade)
+
+    soma_idades = soma_idades + idade  // Acumulador para calcular a soma das idades
+
+    se (idade > maior_idade) então
+        maior_idade = idade
+
+    se (idade < menor_idade) então
+        menor_idade = idade
+
+    contador = contador + 1 // Incrementa o contador
+}
+
+media_idades = soma_idades / 10  // Calcula a média das idades
+
+escreva("A média das idades é: ", media_idades)
+escreva("A maior idade é: ", maior_idade)
+escreva("A menor idade é: ", menor_idade)
