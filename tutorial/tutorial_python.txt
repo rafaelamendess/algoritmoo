@@ -21,3 +21,13 @@ passo a passo Download
 
 6- Execute o instalador: Depois que o download for concluído, localize o arquivo baixado (geralmente na pasta de downloads) e clique duas vezes nele para iniciar o processo de instalação.
 
+
+passo a passo instalação
+
+1- Configuração da instalação: Na primeira tela de instalação, marque a opção "Add Python 3.x to PATH" (Adicionar Python 3.x ao PATH). Isso é importante para que você possa acessar o Python facilmente a partir da linha de comando.
+
+2- Instale o Python: Clique em "Install Now" (Instalar Agora) para iniciar a instalação. O instalador irá então copiar os arquivos necessários para o seu sistema.
+
+3- Conclua a instalação: Após a instalação ser concluída, você verá uma mensagem informando que o Python foi instalado com sucesso. Clique em "Close" (Fechar) para encerrar o instalador.
+
+4- Verifique a instalação: Para verificar se o Python foi instalado corretamente, abra o Prompt de Comando e digite python --version. Isso deve exibir a versão do Python que você instalou.
