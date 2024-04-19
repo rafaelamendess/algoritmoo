@@ -1,1 +1,6 @@
 Iniciando tutorial Python 
+
+Explicando o que é Python
+
+Python é uma linguagem de programação de alto nível, interpretada, orientada a objetos e de propósito geral. Ela é conhecida por sua sintaxe simples e legibilidade, o que a torna uma ótima escolha para iniciantes na programação, bem como para projetos de grande escala. Python é utilizada em uma variedade de aplicações, incluindo desenvolvimento web, automação, análise de dados, inteligência artificial, aprendizado de máquina e muito mais. É uma das linguagens de programação mais populares e amplamente utilizadas no mundo.
+
