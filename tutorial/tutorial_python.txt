@@ -31,3 +31,76 @@ passo a passo instalação
 3- Conclua a instalação: Após a instalação ser concluída, você verá uma mensagem informando que o Python foi instalado com sucesso. Clique em "Close" (Fechar) para encerrar o instalador.
 
 4- Verifique a instalação: Para verificar se o Python foi instalado corretamente, abra o Prompt de Comando e digite python --version. Isso deve exibir a versão do Python que você instalou.
+
+
+
+como configurar o virtualenv:
+
+Instalar
+
+Para macOS com Homebrew:
+
+$ pip install virtualenv
+
+Para Debian, Ubuntu, Fedora:
+
+
+$ sudo pip install virtualenv
+
+Para Archlinux:
+
+$ sudo pip2 install virtualenv
+
+Crie um ambiente virtual com Python
+
+$ virtualenv env --python=python3
+
+Para Python 2:
+
+Para Debian, Ubuntu, CentOS ou Fedora:
+
+
+$ virtualenv env
+
+Para macOS com Homebrew, Archlinux:
+
+
+$ virtualenv env --python=python2
+
+Isso criará um diretório env/com a seguinte estrutura:
+
+diferença
+
+env/
+  bin/
+  include/
+  lib/
+    site-packages/
+
+Ative o virtual
+
+Para Windows:
+
+env/Scripts/activate.bat // CMD
+env/Scripts/Activate.ps1 //Powershell
+Para Linux:
+
+festa
+
+source env/bin/activate
+
+Instalar pacotes no ambiente virtual
+
+pip install <package-name>
+
+Por exemplo, para instalar o requestspacote:
+
+pip install requests
+Gere um arquivo com o instalado
+
+pip freeze > requirements.txt
+
+De
+deactivate
+
+É isso! Você configurou o virtualenv com sucesso.
