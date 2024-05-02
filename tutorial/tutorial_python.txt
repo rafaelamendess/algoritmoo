@@ -1,0 +1,106 @@
+Iniciando tutorial Python 
+
+Explicando o que é Python
+
+Python é uma linguagem de programação de alto nível, interpretada, orientada a objetos e de propósito geral. Ela é conhecida por sua sintaxe simples e legibilidade, o que a torna uma ótima escolha para iniciantes na programação, bem como para projetos de grande escala. Python é utilizada em uma variedade de aplicações, incluindo desenvolvimento web, automação, análise de dados, inteligência artificial, aprendizado de máquina e muito mais. É uma das linguagens de programação mais populares e amplamente utilizadas no mundo.
+
+
+
+passo a passo Download
+
+
+1- Acesse o site oficial do Python: Vá para o site oficial do Python em https://www.python.org/.
+
+2- Clique em "Downloads": No menu principal, clique na opção "Downloads" para ser direcionado à página de downloads.
+
+3- Escolha a versão do Python: Dependendo da data atual, pode haver diferentes versões disponíveis. No momento, a versão mais recente é a 3.x (por exemplo, 3.10). Clique no link para a versão que você deseja baixar.
+
+4- Selecione o instalador adequado: Se você estiver em um sistema Windows de 64 bits, provavelmente desejará baixar o instalador para Windows x86-64. Se estiver em um sistema Windows de 32 bits, baixe o instalador para Windows x86.
+
+5- Inicie o download: Clique no link de download para iniciar o download do instalador.
+
+6- Execute o instalador: Depois que o download for concluído, localize o arquivo baixado (geralmente na pasta de downloads) e clique duas vezes nele para iniciar o processo de instalação.
+
+
+passo a passo instalação
+
+1- Configuração da instalação: Na primeira tela de instalação, marque a opção "Add Python 3.x to PATH" (Adicionar Python 3.x ao PATH). Isso é importante para que você possa acessar o Python facilmente a partir da linha de comando.
+
+2- Instale o Python: Clique em "Install Now" (Instalar Agora) para iniciar a instalação. O instalador irá então copiar os arquivos necessários para o seu sistema.
+
+3- Conclua a instalação: Após a instalação ser concluída, você verá uma mensagem informando que o Python foi instalado com sucesso. Clique em "Close" (Fechar) para encerrar o instalador.
+
+4- Verifique a instalação: Para verificar se o Python foi instalado corretamente, abra o Prompt de Comando e digite python --version. Isso deve exibir a versão do Python que você instalou.
+
+
+
+como configurar o virtualenv:
+
+Instalar
+
+Para macOS com Homebrew:
+
+$ pip install virtualenv
+
+Para Debian, Ubuntu, Fedora:
+
+
+$ sudo pip install virtualenv
+
+Para Archlinux:
+
+$ sudo pip2 install virtualenv
+
+Crie um ambiente virtual com Python
+
+$ virtualenv env --python=python3
+
+Para Python 2:
+
+Para Debian, Ubuntu, CentOS ou Fedora:
+
+
+$ virtualenv env
+
+Para macOS com Homebrew, Archlinux:
+
+
+$ virtualenv env --python=python2
+
+Isso criará um diretório env/com a seguinte estrutura:
+
+diferença
+
+env/
+  bin/
+  include/
+  lib/
+    site-packages/
+
+Ative o virtual
+
+Para Windows:
+
+env/Scripts/activate.bat // CMD
+env/Scripts/Activate.ps1 //Powershell
+Para Linux:
+
+festa
+
+source env/bin/activate
+
+Instalar pacotes no ambiente virtual
+
+pip install <package-name>
+
+Por exemplo, para instalar o requestspacote:
+
+pip install requests
+Gere um arquivo com o instalado
+
+pip freeze > requirements.txt
+
+De
+deactivate
+
+É isso! Você configurou o virtualenv com sucesso.
