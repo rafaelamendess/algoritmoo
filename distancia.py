@@ -1,4 +1,5 @@
-#programa distancia 
+#programa distancia
+nome = input("Nome do motorista:")
 cidade_origem = input("Cidade origem: ")
 cidade_destino = input("Cidade destino: ")
 distancia = float (input("distancia: "))
